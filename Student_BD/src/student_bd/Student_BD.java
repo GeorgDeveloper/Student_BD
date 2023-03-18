@@ -27,20 +27,160 @@ public class Student_BD extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        jbtnExit = new javax.swing.JButton();
+        jbtnReset = new javax.swing.JButton();
+        jbtnAdd = new javax.swing.JButton();
+        jbtnPrint = new javax.swing.JButton();
+        jbtnTranscript = new javax.swing.JButton();
+        jbtnResult = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
+        jPanel11 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
+        jPanel15 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel16 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
+        jPanel18 = new javax.swing.JPanel();
+        jPanel19 = new javax.swing.JPanel();
+        jPanel20 = new javax.swing.JPanel();
+        jPanel21 = new javax.swing.JPanel();
+        jPanel22 = new javax.swing.JPanel();
+        jPanel23 = new javax.swing.JPanel();
+        jPanel1 = new javax.swing.JPanel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTabbedPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 400, 280));
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jbtnExit.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnExit.setText("Exit");
+        jPanel4.add(jbtnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 40, 110, -1));
+
+        jbtnReset.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnReset.setText("Reset");
+        jPanel4.add(jbtnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 40, 110, -1));
+
+        jbtnAdd.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnAdd.setText("Add");
+        jPanel4.add(jbtnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 110, -1));
+
+        jbtnPrint.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnPrint.setText("Print");
+        jPanel4.add(jbtnPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, 110, -1));
+
+        jbtnTranscript.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnTranscript.setText("Transcript");
+        jPanel4.add(jbtnTranscript, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, 160, -1));
+
+        jbtnResult.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jbtnResult.setText("Result");
+        jPanel4.add(jbtnResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 40, 160, -1));
+
+        jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 480, 880, 120));
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel6.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel10.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel6.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel12.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel14.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel12.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel6.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel2.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 10, 430, 450));
+
+        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 400, 290));
+
+        jPanel16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel16.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel18.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel16.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel20.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(95, 158, 160), 8));
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel22.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 360));
+
+        jPanel20.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel16.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 420, 450));
+
+        jPanel2.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 430, 450));
+
+        jTabbedPane1.addTab("Universeti Records", jPanel2);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jTabbedPane1.addTab("Student Records", jPanel1);
+
+        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 1340, 660));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -79,5 +219,33 @@ public class Student_BD extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JButton jbtnAdd;
+    private javax.swing.JButton jbtnExit;
+    private javax.swing.JButton jbtnPrint;
+    private javax.swing.JButton jbtnReset;
+    private javax.swing.JButton jbtnResult;
+    private javax.swing.JButton jbtnTranscript;
     // End of variables declaration//GEN-END:variables
 }
